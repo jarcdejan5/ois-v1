@@ -1,12 +1,19 @@
-<<<<<<< HEAD
+
 
 import java.util.*;
 
 
 public class Gravitacija{
 
+
 	public static void main(String[] args){
-		System.out.println("OIS je zakon!");
+	Scanner sc = new Scanner(System.in);
+	
+	double visina = sc.nextDouble();
+	
+	izpis(visina, izracun(visina));
+	
+	System.out.println("OIS je zakon!");
 	}
 	
 	public static double izracun(double visina){
@@ -21,9 +28,8 @@ public class Gravitacija{
 		double r = 6.371 * Math.pow(10,6);
 		return (C*M)/Math.pow(r+visina,2);
 	}
-	=======
+	
 	public static void izpis(double visina, double gravPosp) {
-		System.out.println("Pri višini " + visina + " je gravitacijski pospešek " + gravPosp);
+		System.out.println("Pri visini " + visina + " je gravitacijski pospesek " + gravPosp);
 	}
-	>>>>>>> izpis
 }
