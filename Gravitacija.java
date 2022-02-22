@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+import java.util.*;
+
 
 public class Gravitacija{
 
@@ -17,5 +21,9 @@ public class Gravitacija{
 		double r = 6.371 * Math.pow(10,6);
 		return (C*M)/Math.pow(r+visina,2);
 	}
-
+	=======
+	public static void izpis(double visina, double gravPosp) {
+		System.out.println("Pri višini " + visina + " je gravitacijski pospešek " + gravPosp);
+	}
+	>>>>>>> izpis
 }
